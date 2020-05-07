@@ -31,6 +31,7 @@ def return_string_array(array)
   while counter < array.length do
     array.map(&:to_s)
     puts array
+    counter += 1
   end
 end
 # Write your methods here
